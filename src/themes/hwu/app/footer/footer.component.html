@@ -1,0 +1,47 @@
+<footer class="text-lg-start">
+
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="bottom-footer p-1 d-flex justify-content-center align-items-center text-white">
+    <div class="content-container d-flex flex-row">
+      <div class="container">
+        <p class="text-left">&#169;Heriot-Watt University, Edinburgh, Scotland, UK, EH14 4AS.
+        </p>
+        <p class="text-left">Maintained by the Library</p>
+        <p class="text-left">Tel: +44 (0)131 451 3577</p>
+        <p class="text-left">Library Email: <a class="text-white"
+            href="mailto:libhelp@hw.ac.uk">libhelp@hw.ac.uk</a></p>
+        <p class="text-left">ROS Email: <a class="text-white" href="mailto:open.access@hw.ac.uk">open.access@hw.ac.uk</a></p>
+        <p class="text-left mt-2">Scottish registered charity number: SC000278</p>
+      </div>
+
+      <div class="container">
+
+        <p class="m-0">
+
+        <ul class="footer-info list-unstyled small d-flex justify-content-center mb-0">
+          <li>
+            <a class="text-white" href="javascript:void(0);" (click)="showCookieSettings()">About</a>
+          </li>
+
+          <li>
+            <a class="text-white" href="javascript:void(0);" (click)="showCookieSettings()">{{ 'footer.link.cookies' |
+              translate}}</a>
+          </li>
+          <li *ngIf="showPrivacyPolicy">
+            <a class="text-white" routerLink="info/privacy">{{ 'footer.link.privacy-policy' | translate}}</a>
+          </li>
+          <li *ngIf="showEndUserAgreement">
+            <a class="text-white" routerLink="info/end-user-agreement">{{ 'footer.link.end-user-agreement' |
+              translate}}</a>
+          </li>
+          <li>
+            <a class="text-white" routerLink="info/feedback">{{ 'footer.link.feedback' | translate}}</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!-- Copyright -->
+</footer>
