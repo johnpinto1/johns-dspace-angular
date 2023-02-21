@@ -1,7 +1,8 @@
 {
   // DSpace default: "All of DSpace"
-  "menu.section.browse_global": "Browse DSpace",
+  "menu.section.browse_global": "Browse ROS",
+  "home.top-level-communities.head": "Communities in ROS",
 
   // DSpace default: "DSpace Angular :: "
-  "repository.title.prefix": "DSpace :: ",
+  "repository.title.prefix": "ROS :: ",
 }
