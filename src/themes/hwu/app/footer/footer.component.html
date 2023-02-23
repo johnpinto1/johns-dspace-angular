@@ -3,9 +3,13 @@
   <!-- Grid container -->
 
   <!-- Copyright -->
-  <div class="bottom-footer p-1 d-flex justify-content-center align-items-center text-white">
-    <div class="content-container d-flex flex-row">
-      <div class="container">
+  <div class="container-fluid" >
+  <div class="container">
+
+  <!-- <div class="bottom-footer p-1 d-flex justify-content-center align-items-center text-white">
+    <div class="content-container d-flex flex-row"> -->
+  <div class="row my-1">
+      <div class="col text-white">
         <p class="text-left">&#169;Heriot-Watt University, Edinburgh, Scotland, UK, EH14 4AS.
         </p>
         <p class="text-left">Maintained by the Library</p>
@@ -16,32 +20,34 @@
         <p class="text-left mt-2">Scottish registered charity number: SC000278</p>
       </div>
 
-      <div class="container">
+    <div class="col">
+        <div class="row footer-info list-unstyled small d-flex justify-content-center mb-0">
+          <div class="col">
+            <a class="text-white" routerLink="info/about">About</a>
+          </div>
+          <div class="col">
+            <a class="text-white" routerLink="info/copyright">Copyright</a>
+          </div>
+          <div class="col">
+            <a class="text-white" routerLink="info/accessibility">Accessibility</a>
+          </div>
+        </div>
+        <div class="row footer-info list-unstyled small d-flex justify-content-center mb-0">
 
-        <p class="m-0">
-
-        <ul class="footer-info list-unstyled small d-flex justify-content-center mb-0">
-          <li>
-            <a class="text-white" href="javascript:void(0);" (click)="showCookieSettings()">About</a>
-          </li>
-
-          <li>
-            <a class="text-white" href="javascript:void(0);" (click)="showCookieSettings()">{{ 'footer.link.cookies' |
-              translate}}</a>
-          </li>
-          <li *ngIf="showPrivacyPolicy">
-            <a class="text-white" routerLink="info/privacy">{{ 'footer.link.privacy-policy' | translate}}</a>
-          </li>
-          <li *ngIf="showEndUserAgreement">
-            <a class="text-white" routerLink="info/end-user-agreement">{{ 'footer.link.end-user-agreement' |
-              translate}}</a>
-          </li>
-          <li>
-            <a class="text-white" routerLink="info/feedback">{{ 'footer.link.feedback' | translate}}</a>
-          </li>
-        </ul>
+        <div class="col">
+            <a class="text-white" routerLink="info/policies">Policies</a>
+          </div>
+          <div class="col">
+            <a class="text-white" routerLink="info/privacy">Privacy & Cookies</a>
+          </div>
+          <div class="col">
+            <a class="text-white" routerLink="info/feedback">Feedback</a>
+          </div>
       </div>
+
     </div>
+  </div>
+  </div>
   </div>
   <!-- Copyright -->
 </footer>
