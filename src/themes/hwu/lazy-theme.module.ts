@@ -1,3 +1,4 @@
+
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { AdminRegistriesModule } from '../../app/admin/admin-registries/admin-registries.module';
@@ -55,6 +56,8 @@ import { PageNotFoundComponent } from './app/pagenotfound/pagenotfound.component
 import { ObjectNotFoundComponent } from './app/lookup-by-id/objectnotfound/objectnotfound.component';
 import { ForbiddenComponent } from './app/forbidden/forbidden.component';
 import { PrivacyComponent } from './app/info/privacy/privacy.component';
+import { AboutComponent} from './app/info/about/about.component';
+
 import {
   CollectionStatisticsPageComponent
 } from './app/statistics-page/collection-statistics-page/collection-statistics-page.component';
@@ -127,6 +130,7 @@ import { SystemWideAlertModule } from '../../app/system-wide-alert/system-wide-a
 import { DsoPageModule } from '../../app/shared/dso-page/dso-page.module';
 
 const DECLARATIONS = [
+  AboutComponent,
   FileSectionComponent,
   HomePageComponent,
   RootComponent,
