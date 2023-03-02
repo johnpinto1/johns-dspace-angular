@@ -9,6 +9,10 @@
   // Custom components
   "info.about.title": "About",
   "info.about.breadcrumbs": "About",
+  "info.accessibility.title": "Accessibility",
+  "info.accessibility.breadcrumbs": "Accessibility",
+  "info.copyright.title": "Copyright",
+  "info.copyright.breadcrumbs": "Copyright",
   "info.organised.title": "Organised",
   "info.organised.breadcrumbs": "Organised",
 

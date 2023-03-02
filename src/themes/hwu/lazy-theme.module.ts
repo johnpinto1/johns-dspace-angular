@@ -129,10 +129,14 @@ import { DsoPageModule } from '../../app/shared/dso-page/dso-page.module';
 
 // CUSTOMISED
 import { AboutComponent} from './app/info/about/about.component';
+import { AccessibilityComponent} from './app/info/accessibility/accessibility.component';
+import { CopyrightComponent } from './app/info/copyright/copyright.component';
 import { OrganisedComponent } from './app/info/organised/organised.component';
 
 const DECLARATIONS = [
   AboutComponent,
+  AccessibilityComponent,
+  CopyrightComponent,
   OrganisedComponent,
   FileSectionComponent,
   HomePageComponent,

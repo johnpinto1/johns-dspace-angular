@@ -5,6 +5,8 @@ export const PRIVACY_PATH = 'privacy';
 export const FEEDBACK_PATH = 'feedback';
 // CUSTOMISED
 export const ABOUT_PATH = 'about';
+export const ACCESSIBILITY_PATH = 'accessibility';
+export const COPYRIGHT_PATH = 'copyright';
 export const ORGANISED_PATH = 'organised';
 
 export function getEndUserAgreementPath() {
@@ -22,6 +24,14 @@ export function getFeedbackPath() {
 //CUSTOMISED
 export function getAboutPath() {
   return getSubPath(ABOUT_PATH);
+}
+
+export function getAccessibilityPath() {
+  return getSubPath(ACCESSIBILITY_PATH);
+}
+
+export function getCopyrightPath() {
+  return getSubPath(COPYRIGHT_PATH);
 }
 
 export function getOrganisedPath() {

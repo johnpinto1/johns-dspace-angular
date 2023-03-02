@@ -9,7 +9,7 @@ import { OrganisedComponent as BaseComponent } from '../../../../../app/info/org
 })
 
 /**
- * Component displaying the Privacy Statement
+ * Component displaying the Organised Statement
  */
 export class OrganisedComponent extends BaseComponent {}
 
