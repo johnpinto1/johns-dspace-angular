@@ -6,7 +6,10 @@
   // DSpace default: "DSpace Angular :: "
   "repository.title.prefix": "ROS :: ",
 
-  // Custom component: "About"
+  // Custom components
+  "info.about.title": "About",
   "info.about.breadcrumbs": "About",
+  "info.organised.title": "Organised",
+  "info.organised.breadcrumbs": "Organised",
 
 }
